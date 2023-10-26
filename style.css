@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	background: #eee;
+	height: 100%;
+}
+
+.title {
+	font-family: menlo;
+	color: #0074D9;
+	text-align: center;
+	font-size: 6em;
+	padding-top: 5px;
+	line-height: 1.7;
+
+	-webkit-animation: colour 1s linear;
+	-webkit-animation-iteration-count: infinite;
+
+	animation: colour 1s linear;
+	animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes colour {
+	0% {color:  #7FDBFF;}
+	10% {color: #85144B;}
+	20% {color: #3D9970;}
+	30% {color: #B10DC9;}
+	40% {color: #FFDC00;}
+	50% {color: #01FF70;}
+	60% {color: #FF4136;}
+	70% {color: #39CCCC;}
+	80% {color: #F012BE;}
+	90% {color: #FF851B;}
+	100%{color: #2ECC40;}
+}
+
+@keyframes colour {
+	0% {color:  #7FDBFF;}
+	10% {color: #85144B;}
+	20% {color: #3D9970;}
+	30% {color: #B10DC9;}
+	40% {color: #FFDC00;}
+	50% {color: #01FF70;}
+	60% {color: #FF4136;}
+	70% {color: #39CCCC;}
+	80% {color: #F012BE;}
+	90% {color: #FF851B;}
+	100%{color: #2ECC40;}
+}
+
+@media only screen and (min-width: 399px) {
+	.title {
+		padding-top: 50px;
+		font-size: 8em;
+		line-height: 1.75;
+	}
+
+@media only screen and (min-width: 680px) {
+	.title {
+		padding-top: 30px;
+		font-size: 11em;
+		line-height: 1.4;
+	}
+
+@media only screen and (min-width: 960px) {
+	.title {
+		padding-top: 325px;
+		font-size: 6em;
+	}
+}
+
+
+}

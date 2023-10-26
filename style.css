@@ -16,7 +16,6 @@ body {
 	font-size: 6em;
 	padding-top: 5px;
 	line-height: 1.7;
-
 }
 
 #title {
@@ -27,7 +26,6 @@ body {
 	animation: colour 1s linear;
 	animation-iteration-count: infinite;
   animation-play-state: paused;
-
 }
 
 @-webkit-keyframes colour {
